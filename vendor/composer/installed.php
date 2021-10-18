@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c1496025ba6b2832d6a4d3976dfb5a2ab71da24d',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -160,6 +160,51 @@
             'reference' => 'e6e7b7d5b45a2f2abc5460cc6396480b2b1d321f',
             'dev_requirement' => false,
         ),
+        'doctrine/cache' => array(
+            'pretty_version' => '1.12.1',
+            'version' => '1.12.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/cache',
+            'aliases' => array(),
+            'reference' => '4cf401d14df219fa6f38b671f5493449151c9ad8',
+            'dev_requirement' => false,
+        ),
+        'doctrine/collections' => array(
+            'pretty_version' => '1.6.8',
+            'version' => '1.6.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/collections',
+            'aliases' => array(),
+            'reference' => '1958a744696c6bb3bb0d28db2611dc11610e78af',
+            'dev_requirement' => false,
+        ),
+        'doctrine/common' => array(
+            'pretty_version' => '2.13.3',
+            'version' => '2.13.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/common',
+            'aliases' => array(),
+            'reference' => 'f3812c026e557892c34ef37f6ab808a6b567da7f',
+            'dev_requirement' => false,
+        ),
+        'doctrine/event-manager' => array(
+            'pretty_version' => '1.1.1',
+            'version' => '1.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/event-manager',
+            'aliases' => array(),
+            'reference' => '41370af6a30faa9dc0368c4a6814d596e81aba7f',
+            'dev_requirement' => false,
+        ),
+        'doctrine/inflector' => array(
+            'pretty_version' => '1.4.4',
+            'version' => '1.4.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/inflector',
+            'aliases' => array(),
+            'reference' => '4bd5c1cdfcd00e9e2d8c484f79150f67e5d355d9',
+            'dev_requirement' => false,
+        ),
         'doctrine/lexer' => array(
             'pretty_version' => '1.2.1',
             'version' => '1.2.1.0',
@@ -167,6 +212,15 @@
             'install_path' => __DIR__ . '/../doctrine/lexer',
             'aliases' => array(),
             'reference' => 'e864bbf5904cb8f5bb334f99209b48018522f042',
+            'dev_requirement' => false,
+        ),
+        'doctrine/persistence' => array(
+            'pretty_version' => '1.3.8',
+            'version' => '1.3.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/persistence',
+            'aliases' => array(),
+            'reference' => '7a6eac9fb6f61bba91328f15aa7547f4806ca288',
             'dev_requirement' => false,
         ),
         'doctrine/reflection' => array(
@@ -183,6 +237,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.0.3',
+            'version' => '3.0.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'reference' => '3.0.3',
+            'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
@@ -232,11 +295,38 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/block_visibility_groups' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/block_visibility_groups',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
         'drupal/book' => array(
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => '3.23.0',
+            'version' => '3.23.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-3.23',
+            'dev_requirement' => false,
+        ),
+        'drupal/bootstrap_paragraphs' => array(
+            'pretty_version' => '2.0.0-beta7',
+            'version' => '2.0.0.0-beta7',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/bootstrap_paragraphs',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta7',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -496,6 +586,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '8.x-3.7',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -514,6 +613,15 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/devel' => array(
+            'pretty_version' => '4.1.1',
+            'version' => '4.1.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/devel',
+            'aliases' => array(),
+            'reference' => '4.1.1',
+            'dev_requirement' => false,
+        ),
         'drupal/dynamic_page_cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -531,6 +639,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/entity_reference_revisions' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/entity_reference_revisions',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
         ),
         'drupal/field' => array(
             'dev_requirement' => false,
@@ -603,6 +720,33 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/jquery_ui' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui',
+            'aliases' => array(),
+            'reference' => '8.x-1.4',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_draggable' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_draggable',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
+        ),
+        'drupal/jquery_ui_droppable' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui_droppable',
+            'aliases' => array(),
+            'reference' => '8.x-1.2',
+            'dev_requirement' => false,
         ),
         'drupal/jsonapi' => array(
             'dev_requirement' => false,
@@ -718,6 +862,24 @@
                 0 => '9.2.6',
             ),
         ),
+        'drupal/panels' => array(
+            'pretty_version' => '4.6.0',
+            'version' => '4.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/panels',
+            'aliases' => array(),
+            'reference' => '8.x-4.6',
+            'dev_requirement' => false,
+        ),
+        'drupal/paragraphs' => array(
+            'pretty_version' => '1.12.0',
+            'version' => '1.12.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/paragraphs',
+            'aliases' => array(),
+            'reference' => '8.x-1.12',
+            'dev_requirement' => false,
+        ),
         'drupal/path' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -743,12 +905,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c1496025ba6b2832d6a4d3976dfb5a2ab71da24d',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -882,6 +1044,15 @@
             'replaced' => array(
                 0 => '9.2.6',
             ),
+        ),
+        'drupal/viewsreference' => array(
+            'pretty_version' => '1.7.0',
+            'version' => '1.7.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/viewsreference',
+            'aliases' => array(),
+            'reference' => '8.x-1.7',
+            'dev_requirement' => false,
         ),
         'drupal/workflows' => array(
             'dev_requirement' => false,
@@ -1102,8 +1273,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(
@@ -1192,6 +1363,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'reference' => 'ffced0d2c8fa8e6cdc4d695a743271fab6c38625',
+            'dev_requirement' => false,
         ),
         'stack/builder' => array(
             'pretty_version' => 'v1.0.6',
